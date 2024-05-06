@@ -1,0 +1,52 @@
+.avatar {
+    border-radius: .4rem;
+    width: 150px;
+    height: auto;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+    margin-bottom: 18px;
+}
+
+.sm {
+    padding: .1rem;
+    font-size: .4rem;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.form{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.data > button{
+    opacity: 0;
+    transition: opacity .2s ease;
+}
+
+.data:hover > button{
+    opacity: 1;
+}
+
+.btn_cadastrar{
+    margin-bottom: 0;
+}
+
+
+
+
+.quantGols{
+    margin-bottom: 0;
+}
+
+.quantAssist{
+    margin-bottom: 0;
+}
